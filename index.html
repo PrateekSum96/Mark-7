@@ -21,18 +21,28 @@
             padding: 1rem;
         }
     </style>
-   
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Yoda Speak Translator</h1>
-    <textarea id="txt-input" placeholder="Type your sentence here"></textarea>
+    <header class="hero"> Yoda Speak Translator</header>
 
+    <section class="section">
+        <textarea id="txt-input" placeholder="Type your sentence here"></textarea>
 
-    <button id="btn-translate">Translate</button>
+        <button id="btn-translate">Translate</button>
+        <p style="font-size: larger;">Output will come here👇</p>
+        <div id="txt-output"></div>
+    
 
-    <div style="font-size: larger;">Output will come here👇</div>
-    <div id="txt-output"></div>
-
+    </section>
+    <footer class="footer">
+        <h3>about</h3>
+        <div class="container-center">
+            Are you a fan of yoda? Did you know that the gibberish they say is an actual language.
+            Use the translator to convert your text from English to Yoda speak or Yoda language.
+        </div>
+    </footer>
+   
 
     <script src="app.js" type="text/javascript"></script>
 </body>
