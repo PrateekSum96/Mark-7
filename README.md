@@ -1,4 +1,4 @@
-# Mark-7(yoda speak)
+# Yoda speak(Mark-7)
 
 This is fun translation app which translates user's language to Yoda's language. 
 
